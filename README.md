@@ -4,8 +4,8 @@
 
 ### Start a Session
 
-Step 1. Search for an artist: Just yype in an artist name and see results pop into view
-Step 2. Focus on an artist: Click one of the results to focus on.
+- 1. Search for an artist: Just yype in an artist name and see results pop into view
+- 2. Focus on an artist: Click one of the results to focus on.
 
 ### Interactions
 - Click in right-side of node for related artists
