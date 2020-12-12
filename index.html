@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<link href="css/latolatinfonts.css" rel="stylesheet" type="text/css">
+	    <link href="css/latostyle.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools.js"></script>
+
+		<script type="text/javascript" src="src/d3.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="src/ApiClient.js"></script>
+		<script type="text/javascript" src="src/main.js"></script>
+	</head>
+
+	<title>Musiction (alpha)</title>
+
+	<body>
+
+		<div style="padding:20px;">
+				<img src="images/musiction_logo.png" width='220px' style="vertical-align: middle;">
+				&nbsp;&nbsp;&nbsp;&nbsp;
+				<div class="search" style="display: inline-block; vertical-align: middle;">
+				  	<span class="fa fa-search" ></span>
+				  	<input placeholder="search bands &amp; artists" id="searchBox" autofocus>
+				</div>
+
+				&nbsp;&nbsp;
+				<input id="no-overlap-checkbox" type="checkbox" style="color:#444; font:20px LatoLatinWeb"/>
+			    <label for="no-overlap-checkbox" style="color:#444; font:20px LatoLatinWeb">no overlap</label>
+		</div>
+
+		<center>
+			<div id="map"></div>
+		</center>
+
+
+		<p style="color:#888; font:12px LatoLatinWebLight";>&nbsp;&nbsp;&copy;2016 conncept.co</p>
+	</body>
+
+	<script type="text/javascript">
+		initApp();
+	</script>
+
+
+</html>
