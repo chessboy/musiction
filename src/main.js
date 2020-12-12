@@ -1,5 +1,5 @@
 const API_HOST = 'http://ws.audioscrobbler.com'
-const API_KEY = 'ec2df420326473165440f7219559bb29'
+const API_KEY = 'get-a-last-dot-fm-api-key'
 const ENDPOINT_PREFIX = API_HOST + '/2.0/?method='
 const ENDPOINT_SUFFIX = '&api_key=' + API_KEY + '&format=json'
 
